@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Center horizontally */
+  justify-content: center;/* Center vertically */
+  min-height: 100vh;      /* Full screen height */
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;           /* Form width */
+  gap: 15px;              /* Space between inputs */
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea,
+.application-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.application-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.application-form button:hover {
+  background-color: #45a049;
+}
