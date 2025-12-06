@@ -1,16 +1,72 @@
-# React + Vite
+# Job Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+Job Tracker is a React-based web application that helps users manage and track their job applications. Users can log in, add new applications, view all applications in a table, filter, search, sort, and get a summary of application statuses in a dashboard.
 
-Currently, two official plugins are available:
+The project demonstrates frontend development with React, routing with React Router DOM, state management using React Context API, and CRUD operations in the frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tech Stack
+- **Frontend:** React, JavaScript, HTML, CSS  
+- **Routing:** React Router DOM  
+- **State Management:** React Context API  
+- **Deployment (Optional):** Netlify / Vercel / Render  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### User Authentication
+- Login page with email and password  
+- Protected routes for Dashboard and Applications pages  
+
+### Applications Page
+- Display applications in a table with columns:
+  - Company Name
+  - Job Title
+  - Job Type
+  - Status
+  - Location
+  - Applied Date
+- **Search:** Case-insensitive search by company name or job title  
+- **Filter:** Dropdown filter by Job Type and Status  
+- **Sorting:** 
+  - Sort by Company (A–Z)  
+  - Sort by Applied Date (Newest → Oldest)  
+  - Reset sorting  
+- **Pagination:** 5 applications per page with Previous/Next buttons  
+- **Actions (Bonus):**
+  - Edit application inline via prompt  
+  - Delete application  
+
+### Dashboard Summary
+- Summary cards showing:
+  - Total Applications  
+  - Applied  
+  - Interview Scheduled  
+  - Selected  
+  - Rejected  
+- Bonus: Last 5 applications displayed in a list  
+
+---
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/loginpage.png)
+
+### Applications Table
+![Applications Table](screenshots/Applications.png)
+
+### Dashboard Summary
+![Dashboard Summary](screenshots/Dashboard.png)
+
+---
+
+
+
+## How to Run Locally
+1. Clone the repository:  
+```bash
+git clone https://github.com/your-username/job-tracker.git
