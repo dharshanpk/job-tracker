@@ -53,8 +53,14 @@ The project demonstrates frontend development with React, routing with React Rou
 
 ## Screenshots
 
+### Home Page
+![Home Page](screenshots/Homepage.png)
+
 ### Login Page
 ![Login Page](screenshots/loginpage.png)
+
+### Add Application Page
+![Add Application Page](screenshots/Addapplication.png)
 
 ### Applications Table
 ![Applications Table](screenshots/Application.png)
